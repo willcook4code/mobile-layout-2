@@ -1,0 +1,41 @@
+header {
+	height: 1em;
+	background-color: #344051;
+	padding: 26.28em 0;
+}
+.topbar{
+	height: .5em;
+	background-color: #118BC0;
+	padding: 1em;
+	margin-top: -26.3em;
+}
+header h1 {
+	text-align: center;
+	color: white;
+	margin-top: 5em;
+}
+header h3 {
+	text-align: center;
+	color: white;
+	margin: 1em 13em 0 13em;
+
+}
+.create {
+	background-color: #118BC0;
+	border: .5em solid black;
+	height: .1em;
+	padding: 1.394em;
+	margin: 2em 16em;
+}
+.crowd {
+	background-color: white;
+    height: .1em;
+    padding: 0.45em;
+    margin: 9em 48% 5em 48%;
+}
+header section div {
+	background-color: white;
+	height: .1em;
+	padding: 1.394em;
+	margin: 2em 14em;
+}
