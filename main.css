@@ -58,13 +58,25 @@ header h3 {
 }
 .midsection div {
 	background-color: #118BC0;
-    width: 40em;
-    padding: 2.3em 0;
-    margin-top: 1em;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 2.3em;
+    margin: auto;
 }
 footer {
 	background-color: black;
-    padding: 3.44em;
+    padding: 2em;
+    color: white;
+    text-align: center;
+    font-size: .7em;
 }
+.navigations {
+	margin-bottom: .4em;
+}
+.navigations span {
+	margin: .7em;
+}
+.bottombox {
+	background-color: #FFFFFF;
+    padding: 1em;
+    margin: 2em 40%;
+}
+
