@@ -3,10 +3,32 @@ header {
     padding: 10.28em 0;
 }
 .topbar{
-	height: .5em;
+    height: .5em;
     background-color: #118BC0;
-    padding: 1em;
-    margin-top: -10.3em;
+    padding: 2em 0.7em;
+    margin-top: -11.8em;
+    width: 75%;
+    overflow: hidden;
+}
+.logo {
+    width: 10%;
+    background-color: #FFF;
+    height: 2em;
+    float: left;
+}
+.site-name {
+    width: 30%;
+    background-color: #FFF;
+    height: 2em;
+    margin-left: 1em;
+    float: left;
+}
+.log-in {
+    background-color: #0070A4;
+    padding: 1.5em 0em;
+    margin-top: -3em;
+    float: right;
+    width: 25%;
 }
 header h1 {
 	text-align: center;
@@ -35,12 +57,28 @@ header h3 {
     padding: 0.45em;
     margin: 14em auto 8em auto;
 }
-.mainlinks {
-	background-color: white;
-    height: 2.1em;
-    width: 22.5em;
-    padding: 1.394em;
+.mainlinks > div {
+    background-color: white;
+    /* height: 2.1em; */
+    width: 20em;
+    padding: 0em 0em;
     margin: 4em auto;
+    overflow: hidden;
+}
+.icon {
+    width: 22%;
+    background-color: #616E7F;
+    height: 4em;
+    float: left;
+    margin-top: 1em;
+}
+.direct {
+    width: 73%;
+    background-color: #616E7F;
+    height: 4em;
+    float: right;
+    margin-bottom: 1em;
+    margin-right: 0.2em;
 }
 .midsection {
 	background-color: #E8F0F5;
@@ -51,10 +89,25 @@ header h3 {
 	background-color: #D1D3D7;
     padding: 1px 1em;
 }
-.outerbox div {
-	background-color: #FFFFFF;
-    padding: 6.57em;
+.outerbox div div {
+    background-color: #FFFFFF;
+    padding: 1em;
     margin: 2em 0;
+}
+.square {
+    background-color: #D1D3D7;
+    height: 3em;
+    margin: 1em 9em;
+}
+.thin-line {
+    background-color: #D1D3D7;
+    height: 1.5em;
+    margin: 1em 0em;
+}
+.thick-line {
+    background-color: #D1D3D7;
+    height: 3em;
+    margin: 0 0em;
 }
 .midsection div {
 	background-color: #118BC0;
@@ -68,11 +121,12 @@ footer {
     text-align: center;
     font-size: .7em;
 }
-.navigations {
-	margin-bottom: .4em;
+.navigations ul {
+    margin-left: -3.6em;
 }
-.navigations span {
+.navigations li {
 	margin: .7em;
+    display: inline;
 }
 .bottombox {
 	background-color: #FFFFFF;
