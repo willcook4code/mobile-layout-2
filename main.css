@@ -2,6 +2,10 @@ header {
     background-color: #344051;
     padding: 10.28em 0;
 }
+a {
+    text-decoration: none;
+    color: #FFF;
+}
 .topbar{
     height: .5em;
     background-color: #118BC0;
@@ -18,24 +22,40 @@ header {
 }
 .site-name {
     width: 30%;
-    background-color: #FFF;
-    height: 2em;
+    /* background-color: #FFF; */
+    /* height: 2em; */
     margin-left: 1em;
     float: left;
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-top: 0.8em;
+    vertical-align: middle;
+}
+.name1 {
+    color: #FEFEFE;
+}
+.name2 {
+    color: #8EC8E1;
 }
 .log-in {
     background-color: #0070A4;
+    color: white;
+    font-size: 0.7em;
+    font-weight: 400;
+    text-align: center;
     padding: 1.5em 0em;
-    margin-top: -3em;
+    margin-top: -4.25em;
     float: right;
     width: 25%;
 }
 header h1 {
+    font-weight: 400; 
 	text-align: center;
     color: white;
     margin-top: 5em;
 }
 header h3 {
+    font-weight: 400;
 	text-align: center;
     width: 18em;
     color: white;
@@ -49,6 +69,13 @@ header h3 {
     padding: 1.394em;
     margin: 4em auto;
     box-sizing: border-box;
+    text-align: center;
+    color: #FFF;
+    
+}
+.create h2 {
+    margin-top: -.5em;
+    font-weight: 400;
 }
 .crowd {
 	background-color: white;
@@ -58,7 +85,7 @@ header h3 {
     margin: 14em auto 8em auto;
 }
 .mainlinks > div {
-    background-color: white;
+    /*background-color: white;*/
     /* height: 2.1em; */
     width: 20em;
     padding: 0em 0em;
@@ -67,18 +94,27 @@ header h3 {
 }
 .icon {
     width: 22%;
-    background-color: #616E7F;
+    background-color: #FFF;
     height: 4em;
     float: left;
     margin-top: 1em;
 }
 .direct {
     width: 73%;
-    background-color: #616E7F;
-    height: 4em;
+    /*background-color: #616E7F;*/
+    /*height: 4em;*/
     float: right;
     margin-bottom: 1em;
     margin-right: 0.2em;
+    color: #FFF;
+}
+.direct h3 {
+    text-align: left;
+}
+.direct h5 {
+    text-align: left;
+    color: #C9CACC;
+    margin-top: -.5em;
 }
 .midsection {
 	background-color: #E8F0F5;
