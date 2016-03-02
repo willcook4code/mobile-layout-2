@@ -1,41 +1,70 @@
 header {
-	height: 1em;
-	background-color: #344051;
-	padding: 26.28em 0;
+    background-color: #344051;
+    padding: 10.28em 0;
 }
 .topbar{
 	height: .5em;
-	background-color: #118BC0;
-	padding: 1em;
-	margin-top: -26.3em;
+    background-color: #118BC0;
+    padding: 1em;
+    margin-top: -10.3em;
 }
 header h1 {
 	text-align: center;
-	color: white;
-	margin-top: 5em;
+    color: white;
+    margin-top: 5em;
 }
 header h3 {
 	text-align: center;
-	color: white;
-	margin: 1em 13em 0 13em;
-
+    width: 18em;
+    color: white;
+    margin: 1em auto;
 }
 .create {
 	background-color: #118BC0;
-	border: .5em solid black;
-	height: .1em;
-	padding: 1.394em;
-	margin: 2em 16em;
+    border: .5em solid black;
+    height: .1em;
+    width: 18.75em;
+    padding: 1.394em;
+    margin: 4em auto;
+    box-sizing: border-box;
 }
 .crowd {
 	background-color: white;
     height: .1em;
+    width: 2em;
     padding: 0.45em;
-    margin: 9em 48% 5em 48%;
+    margin: 14em auto 8em auto;
 }
-header section div {
+.mainlinks {
 	background-color: white;
-	height: .1em;
-	padding: 1.394em;
-	margin: 2em 14em;
+    height: 2.1em;
+    width: 22.5em;
+    padding: 1.394em;
+    margin: 4em auto;
+}
+.midsection {
+	background-color: #E8F0F5;
+	height: 1em;
+	padding: 6.57em;
+}
+.outerbox {
+	background-color: #D1D3D7;
+    padding: 1px 1em;
+}
+.outerbox div {
+	background-color: #FFFFFF;
+    padding: 6.57em;
+    margin: 2em 0;
+}
+.midsection div {
+	background-color: #118BC0;
+    width: 40em;
+    padding: 2.3em 0;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+	background-color: black;
+    padding: 3.44em;
 }
