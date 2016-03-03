@@ -1,5 +1,7 @@
 header {
-    background-color: #344051;
+    background-image: url(https://s1.wp.com/home.logged-out//images/pic-crowd.webp?2);
+    background-position: center;
+    background-size: cover;
     padding: 10.28em 0;
 }
 a {
@@ -16,9 +18,9 @@ a {
 }
 .logo {
     width: 10%;
-    background-color: #FFF;
     height: 2em;
     float: left;
+    color: #FFF;
 }
 .site-name {
     width: 30%;
@@ -62,8 +64,8 @@ header h3 {
     margin: 1em auto;
 }
 .create {
-	background-color: #118BC0;
-    border: .5em solid black;
+    background-color: #118BC0;
+    border: .5em solid rgba(0,0,0,.5);
     height: .1em;
     width: 18.75em;
     padding: 1.394em;
@@ -78,7 +80,7 @@ header h3 {
     font-weight: 400;
 }
 .crowd {
-	background-color: white;
+	color: white;
     height: .1em;
     width: 2em;
     padding: 0.45em;
@@ -93,11 +95,13 @@ header h3 {
     overflow: hidden;
 }
 .icon {
-    width: 22%;
-    background-color: #FFF;
+width: 22%;
+    /* background-color: #FFF; */
     height: 4em;
     float: left;
-    margin-top: 1em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: #FFF;
 }
 .direct {
     width: 73%;
@@ -118,7 +122,7 @@ header h3 {
 }
 .midsection {
     color: #424464;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 200;
     line-height: 1.6;
     background-color: #E8F0F5;
@@ -140,11 +144,18 @@ header h3 {
 .square {
     background-color: #D1D3D7;
     height: 3em;
-    margin: 1em 9em;
+    width: 3em;
+    border-radius: 50%;
+    padding: .5em;
+    margin: 1em auto;
+}
+.square i {
+    margin-top: .3em;
+    color: #426277;
 }
 .thin-line {
     height: 1.5em;
-    margin: 1em 0em;
+    margin: 1em auto;
     font-weight: 500;
     color: #426277;
 }
@@ -178,6 +189,11 @@ footer {
 .bottombox {
 	/*background-color: #FFFFFF*/
     padding: 1em;
-    margin: 2em 40%;
+    margin: 2em 30%;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjciIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMjcgMTEiPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik00Ni4zNDQuNjk0Yy0zLjE3IDAtNS4yMjMgMi4yNDMtNS4yMjMgNC42NnYuMjk1YzAgMi4zNzUgMi4wNTUgNC42NTcgNS4yMjQgNC42NTcgMy4xODIgMCA1LjIzNi0yLjI4IDUuMjM2LTQuNjU4di0uMjk2YzAtMi40MTctMi4wNTQtNC42Ni01LjIzNi00LjY2em0zLjU0NCA0LjljMCAxLjczNC0xLjI2MyAzLjMwNS0zLjU0NCAzLjMwNS0yLjI4MiAwLTMuNTMtMS41Ny0zLjUzLTMuMzA1VjUuMzhjMC0xLjczIDEuMjQ4LTMuMjc0IDMuNTMtMy4yNzQgMi4yOCAwIDMuNTQ0IDEuNTQzIDMuNTQ0IDMuMjc0di4yMTV6TTYuMDUyIDEuMDE4TDEuMjIgOS45NmgxLjc3TDQuMTMzIDcuNzRoNS4yNWwxLjE4MiAyLjIxN2gxLjhMNy40NSAxLjAxNkg2LjA1ek00Ljc2NCA2LjUyTDYuNzEgMi43NjNsMi4wMTQgMy43NmgtMy45NnptMTguMzQtLjI1NGMwIDEuNjUyLS44NzMgMi42MzMtMi45OTQgMi42MzMtMi4wNjcgMC0zLjE1NS0uOTgtMy4xNTUtMi42MzR2LTUuMjVIMTUuMjlWNi4yNGMwIDIuMzI0IDEuNDkgNC4wNjggNC43IDQuMDY4IDMuMzcgMCA0Ljc5Mi0xLjg1MyA0Ljc5Mi00LjA2OHYtNS4yMmgtMS42OHY1LjI0OHptNS40MzctMy44NTNoMy45MDhWOS45NmgxLjY3OFYyLjQxMmgzLjkwN1YxLjAxNkgyOC41NHYxLjM5N3ptMzMuODg3IDQuNzRsLS40MTUuNzUtLjQxNy0uNzUtMy41My02LjEzNmgtMi4zMjJWOS45NmgxLjYzN1YyLjg4bC40NDMuNzc4IDMuNzA2IDYuMjk4aC44MTdsMy43NDctNi4yOTguNDQzLS43NzhWOS45NmgxLjY3OFYxLjAxNmgtMi4yOTdsLTMuNDkgNi4xMzV6TTc2LjM5IDEuMDE2TDcxLjU1OCA5Ljk2aDEuNzczbDEuMTQtMi4yMThoNS4yNWwxLjE4MyAyLjIxN2gxLjhMNzcuNzkgMS4wMTZoLTEuNHpNNzUuMTAzIDYuNTJsMS45NDctMy43NTggMi4wMTMgMy43NmgtMy45NnptOC43OC00LjEwN2gzLjkwN1Y5Ljk2aDEuNjhWMi40MTJoMy45MDVWMS4wMTZoLTkuNDkydjEuMzk3em0xMi4zMTMgMGgzLjkwNlY5Ljk2aDEuNjhWMi40MTJoMy45MDVWMS4wMTZoLTkuNDl2MS4zOTd6bTEzLjYyNS0uNTV2OC4wOThoMS42NTJWMS4wMmgtLjcxYzAgLjQ4LS4yNy44NDYtLjk0Mi44NDZ6TTEyMS4xNTIgOC45Yy0yLjQ5NiAwLTMuODU0LTEuNTg0LTMuODU0LTMuMjc1di0uMTc1YzAtMS43MDUgMS4zNDUtMy4zNDIgMy43My0zLjM0MiAxLjYgMCAyLjc4LjY5NiAzLjU4OCAxLjQzNmwxLjA0Ny0xLjA2Yy0uOTI3LS45OTUtMi42NDYtMS43ODgtNC41NC0xLjc4OC0zLjI3MyAwLTUuNTE4IDIuMjgyLTUuNTE4IDQuN3YuMjk2YzAgMi40MTYgMi4wNTYgNC42MTcgNS40MzggNC42MTcgMS45NzYgMCAzLjY0LS44MTcgNC42Mi0xLjc4NWwtMS4wMS0xLjA2Yy0uNzc0LjcyNC0yLjAxIDEuNDM2LTMuNSAxLjQzNnpNNDcuNDUgMy44MDZjLS4zMDMtLjE5Ni0uNzA3LS4xMDYtLjkwNC4xOTdsLTEuNTMgMi4zNjhjLS4xOTcuMzEtLjExLjcxNC4xOS45MS4zMDMuMTk0LjcwNy4xMDUuOTA0LS4xOThsMS41My0yLjM3MmMuMTk3LS4zMDMuMTEyLS43MS0uMTktLjkwNHoiLz48L3N2Zz4=) no-repeat 2px 2px;
+    min-width: 131px;
+    display: inline-block;
+    padding: 6px 7px;
+/* text-indent:  -600em */ /*I wonder what this is for */
 }
 
