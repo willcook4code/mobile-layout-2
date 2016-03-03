@@ -117,13 +117,20 @@ header h3 {
     margin-top: -.5em;
 }
 .midsection {
-	background-color: #E8F0F5;
-	height: 1em;
-	padding: 6.57em;
+    color: #424464;
+    font-size: 1.3em;
+    font-weight: 200;
+    line-height: 1.6;
+    background-color: #E8F0F5;
+    height: 6.2em;
+    padding: 0.47em;
+    margin: 0em 0em;
+    text-align: center;
 }
 .outerbox {
 	background-color: #D1D3D7;
     padding: 1px 1em;
+    text-align: center;
 }
 .outerbox div div {
     background-color: #FFFFFF;
@@ -136,19 +143,22 @@ header h3 {
     margin: 1em 9em;
 }
 .thin-line {
-    background-color: #D1D3D7;
     height: 1.5em;
     margin: 1em 0em;
+    font-weight: 500;
+    color: #426277;
 }
 .thick-line {
-    background-color: #D1D3D7;
     height: 3em;
-    margin: 0 0em;
+    /* margin: 0 0em; */
+    font-size: small;
+    line-height: 1.6;
 }
 .midsection div {
-	background-color: #118BC0;
-    padding: 2.3em;
-    margin: auto;
+    background-color: #118BC0;
+    padding: 0.4em 0;
+    margin: 2em 25%;
+    color: #FFF;
 }
 footer {
 	background-color: black;
@@ -159,13 +169,14 @@ footer {
 }
 .navigations ul {
     margin-left: -3.6em;
+    line-height: 1.6;
 }
 .navigations li {
 	margin: .7em;
     display: inline;
 }
 .bottombox {
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF*/
     padding: 1em;
     margin: 2em 40%;
 }
